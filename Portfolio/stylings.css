@@ -9,9 +9,10 @@
 
 body {
     font-size: 1.2rem;
+    width: fit-content;
 }
 header{
-    height: 18vh;
+    height: 10vh;
      max-width: 100%;
 }
 nav{
@@ -87,7 +88,7 @@ nav{
     border: 1px;
     width: 420px;
     height: 300px;
-    margin-left: 11rem;
+    margin-left: 8rem;
     margin-top: 1rem;
     padding: 0;
     position: relative;
@@ -110,13 +111,13 @@ nav{
     float: right;
     border-radius: 10px;
     margin-top: 30px;
-    margin-right: 230px;
+    margin-right: 120px;
     margin-left: 0;
   }
  .container{
     border: 1px solid #edd8ff;
-    width: 420px;
-    margin-left: 11rem;
+    width: 380px;
+    margin-left: 8rem;
     margin-top: 30px;
     display: flex;
  }
@@ -151,7 +152,7 @@ nav{
    
  .first{
     float: left;
-    margin-left: 60px;
+    margin-left: 20px;
  }
    .main::after{
     content: '';
@@ -160,17 +161,25 @@ nav{
     margin-bottom: 35px;
    }
  @media screen and (min-width: 200px){
-    main img{
-        height: 360px;
-        width: 400px;
-        float: right;
-        margin-right: 80px;
-        margin-left: 20px;
+    .main img{
+        margin-right: 190px;
       }
+     header{
+         height: 18vh;
+ }
+     body{
+         width: 100%;
  }
  main{
     height: 72vh;
  }
+     first{
+         margin-left: 80px;
+ }
+ }
+main{ 
+    height: 72vh;
+}
  .Second{
     position: relative;
     background-color: white;

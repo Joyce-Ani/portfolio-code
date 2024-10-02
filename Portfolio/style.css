@@ -1,0 +1,43 @@
+
+body{
+   display: flex;
+   justify-content: center;
+ 
+  background: linear-gradient(90deg, rgba(255,255,255,1)2%, rgba(213, 181, 241, 1) 36%, rgba(193,126,252, 1) 60%, rgba(196,245,233,1) 76%);
+}
+ .email {
+  background-color: #A53DFF;
+  border: 1px solid rgba(193,126,252, 1);
+  color: white;
+ }
+ .mycontact{
+    background: white;
+    height: 450px;
+    border-radius: 7px;
+    width: 400px;
+    margin-top: 15px;
+    font-family: sans-serif;
+ } 
+ .myimage{
+    display: flex;
+    justify-content: center;
+ } 
+ input{
+    margin-top: 6px;
+    color: gray;
+    height: 20px;
+ } 
+ form p{
+    font-size: 15px;
+ }   
+ .Submit{
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+ }
+ .Sub{
+    display: flex;
+    justify-content: center;
+ }

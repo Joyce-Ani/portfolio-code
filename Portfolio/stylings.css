@@ -82,13 +82,15 @@ nav{
     align-content: center;
 } 
 .main{
+   display: flex;
+   justify-content: center;
    margin-top: 30px;
 }
  .intro{
     border: 1px;
-    width: 420px;
+    width: 380px;
     height: 300px;
-    margin-left: 8rem;
+    margin-left: 5rem;
     margin-top: 1rem;
     padding: 0;
     position: relative;
@@ -111,13 +113,13 @@ nav{
     float: right;
     border-radius: 10px;
     margin-top: 30px;
-    margin-right: 120px;
+    margin-right: 100px;
     margin-left: 0;
   }
  .container{
     border: 1px solid #edd8ff;
     width: 380px;
-    margin-left: 8rem;
+    margin-left: 5rem;
     margin-top: 30px;
     display: flex;
  }
@@ -160,9 +162,9 @@ nav{
     clear: both;
     margin-bottom: 35px;
    }
- @media screen and (min-width: 200px){
+ @media screen and (min-width: 900px){
     .main img{
-        margin-right: 190px;
+        margin-right: 200px;
       }
      header{
          height: 18vh;
@@ -170,11 +172,15 @@ nav{
      body{
          width: 100%;
  }
+ #third{
+   display:flex;
+    justify-content: center;
+}
  main{
     height: 72vh;
  }
-     first{
-         margin-left: 80px;
+     .first{
+         margin-left: 120px;
  }
  }
 main{ 
@@ -183,7 +189,7 @@ main{
  .Second{
     position: relative;
     background-color: white;
-    width: 50%;
+    width: fit-content;
     height: 300px;
     margin: auto;
     border-radius: 7px;
@@ -218,8 +224,7 @@ main{
     height: 41px;
     width: 125px;
  }
- #third{
-    justify-content: center;
+ #third{
     background-color: #f0f1f3;
     height: 350px;
  }
